@@ -1,0 +1,158 @@
+*{    
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+   
+
+color: #000000de;
+}
+body{
+    font-family: Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
+    background-color: #e7eeec;
+}
+.image2{
+    display: none;
+ }
+ 
+ @media only screen and (max-width: 600px){ 
+    .image1{
+      display: none;
+    }
+ 
+    .image2{
+      display: block;
+    }
+ }
+ .image1{
+     width: 115px;
+     height: 40px;
+     margin: auto;
+ }
+   /* .image2{
+    width: 18px;
+    display: inline-block; 
+  }  */
+ button.google-auth {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+}
+ div.logo {
+    height: 40px;
+    width: 40px;
+    background-image: url(https://webassets.mongodb.com/_com_assets/cms/google_logo_button-k3uhmqncx5.svg);
+    background-size: contain;
+}
+div.text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+    text-decoration: none;
+}
+.mogo-grey{
+    font-family: Akzidenz Grotesk BQ Light,Helvetica,Arial !important;
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+
+}
+.mongo-title-green{
+    
+    color: #116149;
+    font-family: Akzidenz Grotesk BQ Light,Helvetica,Arial !important;
+}.title{
+    width: 50%;
+}
+.contianer img{
+    max-height:600px;
+    width:350px;
+}
+@media only screen and (max-width: 808px){ 
+    .image3{
+      display: none;
+    }
+}
+@media (max-width: 650px){
+.row{
+    flex-direction:column-reverse;
+}}
+
+button.start-free{
+    background-color: #13aa52;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    
+}
+.a{
+    text-decoration: none;
+}
+.logo1{
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+}
+.des1 p{
+    font-family: Akzidenz Grotesk BQ Light,Helvetica,Arial !important;
+    color: #1a1a1a;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 400;
+}
+.contents{
+    margin-top:150px;
+    margin: 5%;
+
+}
+
+.content{
+    padding-top: 20%;
+    margin-left:10%;
+}
+.icons img{
+width: 4px;
+}
+.des1 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Akzidenz Grotesk BQ Light,Helvetica;
+    color: #42494f;
+}
+.col h2{
+    color: #116149;
+    font-size: 30px;
+    line-height: 40px;
+}
+.ico img{
+width:70%;
+height:50%;
+
+}
+.ico{
+    background-image: url("https://www.mongodb.com/assets/images/cloud/atlas/2018/map.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+}
+
+/* @media (max-width: 650px){
+    .contents{
+        flex-direction:column-reverse;
+    }} */
+
+.btn-success {
+    padding: 12px 53px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+@media (max-width: 600px){
+    .row{
+        display:block;
+    }
+}
