@@ -152,7 +152,7 @@ height:50%;
     border-radius: 5px;
 }
 @media (max-width: 600px){
-    .row{
+    .row section{
         display:block;
     }
 }
